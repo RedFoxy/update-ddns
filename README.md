@@ -21,7 +21,7 @@ sudo chmod +x update-ddns.sh
 /opt/update-ddns/update-ddns.sh /opt/update-ddns/update-other-service.conf
 
 # Crontab
-You can add taht script in yout crontab to keep updated your dynamic dns:
+You can add taht script in yout crontab to keep updated your dynamic dns checking for update every 5 minutes:
 
 crontab -e
 
